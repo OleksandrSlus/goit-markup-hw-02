@@ -1,0 +1,220 @@
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #2e2f42;
+}
+
+.header-logotup {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.header-logotup:hover {
+  color: orange;
+}
+.header-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+  text-decoration: none;
+}
+.header-link:hover {
+  color: orange;
+}
+.header-email {
+  font-style: normal;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+  text-decoration: none;
+}
+.header-email:hover,
+.header-email:focus {
+  color: orange;
+}
+.header-tel {
+  font-style: normal;
+  font-family: "Roboto";
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+  text-decoration: none;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: orange;
+}
+.adress-ul {
+  list-style-type: none;
+}
+.header-ul {
+  list-style-type: none;
+}
+.first-section {
+  background-color: var(--centrocolor-color);
+}
+
+.heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.first-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+.first-btn:hover {
+  color: orange;
+}
+.advantages-ul {
+  list-style-type: none;
+}
+
+.headline {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+}
+.heading-text {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+}
+
+.desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--centrocolor-color);
+}
+.img-ul {
+  list-style-type: none;
+}
+
+.caption {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--centrocolor-color);
+}
+.people-ul {
+  list-style-type: none;
+}
+
+.list-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+}
+.list-profesion {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+}
+.footer {
+  background: #2e2f42;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/*--------------page2-------------*/
+
+.btn-ul button {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #4d5ae5;
+}
+.btn-ul button:hover {
+  color: orange;
+}
+.btn-ul {
+  list-style-type: none;
+}
+.content-ul {
+  list-style-type: none;
+}
+.content-ul h2 {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--centrocolor-color);
+}
+.content-ul {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondcolor-color);
+}
+:root {
+  --centrocolor-color: #2e2f42;
+  --secondcolor-color: #434455;
+}
