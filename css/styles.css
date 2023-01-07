@@ -11,41 +11,35 @@
   margin: -1px;
 }
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
+  font-size: 16px;
 }
 
 .header-logotup {
-  font-family: "Raleway";
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #4d5ae5;
+  color: #2e2f42;
   text-decoration: none;
+  text-transform: uppercase;
 }
-.header-logotup:hover {
-  color: orange;
+.logofint {
+  color: #4d5ae5;
 }
 .header-link {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.33;
   letter-spacing: 0.02em;
   color: var(--centrocolor-color);
   text-decoration: none;
 }
 .header-link:hover {
-  color: orange;
+  color: #404bbf;
 }
 .header-email {
   font-style: normal;
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
@@ -53,14 +47,11 @@ body {
 }
 .header-email:hover,
 .header-email:focus {
-  color: orange;
+  color: #404bbf;
 }
 .header-tel {
   font-style: normal;
-  font-family: "Roboto";
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
@@ -68,7 +59,7 @@ body {
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: orange;
+  color: #404bbf;
 }
 .adress-ul {
   list-style-type: none;
@@ -81,7 +72,6 @@ body {
 }
 
 .heading {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -91,7 +81,6 @@ body {
   color: #ffffff;
 }
 .first-btn {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -100,14 +89,13 @@ body {
   cursor: pointer;
 }
 .first-btn:hover {
-  color: orange;
+  background: #404bbf;
 }
 .advantages-ul {
   list-style-type: none;
 }
 
 .headline {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -116,15 +104,12 @@ body {
   color: var(--centrocolor-color);
 }
 .heading-text {
-  font-family: "Roboto";
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
 }
 
 .desc {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -136,7 +121,6 @@ body {
 }
 
 .caption {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -148,7 +132,6 @@ body {
 }
 
 .list-name {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -157,10 +140,8 @@ body {
   color: var(--centrocolor-color);
 }
 .list-profesion {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
@@ -169,27 +150,33 @@ body {
   background: #2e2f42;
 }
 .footer-text {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+.footer-logotup {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #f4f4fd;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 /*--------------page2-------------*/
 
 .btn-ul button {
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 16px;
   line-height: 24px;
   cursor: pointer;
   color: #4d5ae5;
+  background-color: #f4f4fd;
 }
 .btn-ul button:hover {
-  color: orange;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .btn-ul {
   list-style-type: none;
@@ -198,7 +185,6 @@ body {
   list-style-type: none;
 }
 .content-ul h2 {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -206,10 +192,8 @@ body {
   color: var(--centrocolor-color);
 }
 .content-ul {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
