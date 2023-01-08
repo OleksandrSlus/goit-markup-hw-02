@@ -12,21 +12,20 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #ffffff;
+  color: var(--centrocolor-color);
+  background-color: var(--fonokolor-color);
   font-size: 16px;
 }
-
 .header-logotup {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  color: #2e2f42;
+  color: var(--centrocolor-color);
   text-decoration: none;
   text-transform: uppercase;
 }
 .logofint {
-  color: #4d5ae5;
+  color: var(--btncolor-color);
 }
 .header-link {
   font-weight: 500;
@@ -36,30 +35,18 @@ body {
   text-decoration: none;
 }
 .header-link:hover {
-  color: #404bbf;
+  color: var(--hovercolor-color);
 }
-.header-email {
+.adress-ul a {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
   text-decoration: none;
 }
-.header-email:hover,
-.header-email:focus {
-  color: #404bbf;
-}
-.header-tel {
-  font-style: normal;
-  text-transform: uppercase;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondcolor-color);
-  text-decoration: none;
-}
-.header-tel:hover,
-.header-tel:focus {
-  color: #404bbf;
+.adress-ul a:hover,
+.adress-ul a:focus {
+  color: var(--hovercolor-color);
 }
 .adress-ul {
   list-style-type: none;
@@ -78,25 +65,24 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--fonokolor-color);
 }
 .first-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #ffffff;
-  background: #4d5ae5;
+  color: var(--fonokolor-color);
+  background: var(--btncolor-color);
   cursor: pointer;
 }
 .first-btn:hover {
-  background: #404bbf;
+  background: var(--hovercolor-color);
 }
 .advantages-ul {
   list-style-type: none;
 }
 
 .headline {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -104,14 +90,14 @@ body {
   color: var(--centrocolor-color);
 }
 .heading-text {
+  text-transform: capitalize;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondcolor-color);
 }
-
-.desc {
-  font-style: normal;
-  font-weight: 700;
+.section-title {
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
   color: var(--centrocolor-color);
@@ -119,39 +105,13 @@ body {
 .img-ul {
   list-style-type: none;
 }
-
-.caption {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  color: var(--centrocolor-color);
-}
 .people-ul {
   list-style-type: none;
 }
-
-.list-name {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--centrocolor-color);
-}
-.list-profesion {
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondcolor-color);
-}
 .footer {
-  background: #2e2f42;
+  background: var(--centrocolor-color);
 }
 .footer-text {
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
@@ -171,12 +131,12 @@ body {
   font-weight: 500;
   line-height: 24px;
   cursor: pointer;
-  color: #4d5ae5;
+  color: var(--btncolor-color);
   background-color: #f4f4fd;
 }
 .btn-ul button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--fonokolor-color);
+  background-color: var(--hovercolor-color);
 }
 .btn-ul {
   list-style-type: none;
@@ -201,4 +161,7 @@ body {
 :root {
   --centrocolor-color: #2e2f42;
   --secondcolor-color: #434455;
+  --fonokolor-color: #ffffff;
+  --hovercolor-color: #404bbf;
+  --btncolor-color: #4d5ae5;
 }
